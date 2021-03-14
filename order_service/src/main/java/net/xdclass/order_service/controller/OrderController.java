@@ -19,5 +19,14 @@ public class OrderController {
         return  ProductOrderService.save(userId,productId) ;
     }
 
+    /**
+     * 主方法本地测试
+     * */
+    public static void main(String[] args) {
+
+        System.out.println ("hello world");
+
+    }
+
 
 }
